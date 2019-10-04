@@ -2,30 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
     <link rel="icon" href="./images/dog-face-favicon.png" />
     <meta charset="utf-8">
     <title>Dog Party</title>
   </head>
   <body>
-    <ul>
-      <image class="nav-icon" src="./images/dog-icon.svg" alt="dog nav icon" />
-      <li>Facts From Dog</li>
-      <li>What Is Dogs</li>
-      <li>How To Dog</li>
-    </ul>
-    <section class="park-image">
-      <h1>A Site About Some Dogs</h1>
-      <form action="/action_page.php">
-        First name:<br>
-        <input type="text" name="firstname" value="Mickey">
-        <br>
-        Last name:<br>
-        <input type="text" name="lastname" value="Mouse">
-        <br><br>
-        <input type="submit" value="Submit">
+    <nav>
+      <image class="dog-icon" src="./images/dog-icon.svg" alt="dog nav icon" />
+      <ul>
+        <li>How To Dog</li>
+        <li>What Is Dogs</li>
+        <li><a href="" target="_blank" rel="">Facts From Dog</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="align-center">A Site About <b>Some Dogs</b></h2>
+      <div class="border-contain">
+        <image class="dog-profile" src="./images/dog1-sq.jpg" alt="good doggo" />
+      </div>
+      <form class="align-center" action="/tbd_name.js">
+        <label id="name-label" for="name">Name</label><br>
+        <input class="name-input align-center" type="text" name="firstname" value="" placeholder="Enter Dog Name"><br>
+        <input id="name-btn" type="submit" value="Name This Dog">
       </form>
-      Name
-      <button class="name-btn" href="">Name This Dog</button>
+    </main>
+    <section>
+      <div class="border-contain"><image class="dog-profile" src="./images/dog1-sq.jpg" alt="good doggo" /></div>
     </section>
   </body>
 </html>
