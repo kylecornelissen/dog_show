@@ -1,53 +1,125 @@
 body {
   margin: 0;
-  font: "Open Sans";
-  background: pink;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
   color: black;
+  box-sizing: border-box;
 }
 
-ul {
-  list-style-type: none;
+/* NAV BAR */
+nav {
   margin: 0;
-  padding: 4px 8px 2px 8px;
   overflow: hidden;
   background-color: #75e2e6;
   position: fixed;
-  top: 0;
   width: 100%;
+  height: 12%;
   border-bottom-style: solid;
   border-bottom-color: #048eaa;
 }
 
-li {
+.dog-icon {
+  width: 65px;
+  margin: 15px 15px 15px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px;
   float: right;
+  text-align: center;
+}
+
+li {
   padding: 15px 25px 15px 1px;
-  margin-top: 8px;
-  font-family: "Arial";
+  display: inline-block;
+  font-weight: 700;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
 }
 
 li:hover {
-  background-color: #048eaa;
   color: white;
 }
 
-.nav-icon {
-  width: 60px;
-}
-
-.park-image {
+/* MAIN */
+main {
   color: #ffffff;
-  background-image: url("./images/park.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/park.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
-  margin-top: 73px;
-  text-align: center;
   display: inline-block;
+  padding-top: 6%;
+  margin-top: -10%;
 }
 
-.name-btn {
-  background-color: orange;
+main h2 {
+  margin-top: 13%;
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.border-contain {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border-width: thick;
+  border: 4px solid #048eaa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  overflow: hidden;
+}
+
+.dog-profile {
+  margin-left: -7%;
+  margin-top: -7%;
+  transform: scale(0.95);
+}
+
+.dog-profile:hover {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: transform .5s;
+}
+
+#name-label {
+  margin-right: 31.35%;
+  font-size: 80%;
+}
+
+.name-input {
   padding: 15px 30px 15px 30px;
-  margin-bottom: 55px;
+  width: 30.8%;
+  font-size: 75%;
+  font-weight: 700;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border: none;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 0.7;
+}
+
+#name-btn {
+  background-color: #75e2e6;
+  padding: 15px 30px 15px 30px;
+  width: 35%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75%;
+  font-weight: 700;
+  margin-bottom: 3%;
+  border: none;
 }
