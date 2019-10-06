@@ -24,6 +24,11 @@ nav {
   margin: 15px 15px 15px 20px;
 }
 
+.dog-icon:hover {
+  /* filter: invert(1); */
+  filter: invert(1) drop-shadow(0 0 0.75rem white);
+}
+
 ul {
   list-style-type: none;
   margin: 15px;
@@ -44,6 +49,7 @@ li a {
 
 li:hover {
   color: white;
+  filter: drop-shadow(0 0 1rem #ffffff);
 }
 
 /* MAIN */
