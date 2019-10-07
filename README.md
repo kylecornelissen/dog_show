@@ -15,7 +15,7 @@ Dog Party is a Front End Module 1 Project at Turing School of Software & Design 
 
 ## Setup
 1. Clone this repository
-2. Run ```open index.html``` in the command line
+2. Run ```open index.html``` in the terminal command line
 
 ## Comprehensive layout
 ![comp](https://user-images.githubusercontent.com/46171611/66282830-325d2800-e87e-11e9-99b3-e9857ee1815e.png)
