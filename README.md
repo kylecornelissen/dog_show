@@ -16,6 +16,8 @@ Dog Party is a Front End Module 1 Project at Turing School of Software & Design 
 ## Setup
 1. Clone this repository
 2. Run ```open index.html``` in the terminal command line
+3. Enter a name in the input field and press the button or hit return/enter
+4. Try entering the name 'Cajun' (my dog!) and see what happens...
 
 ## Comprehensive layout
 ![comp](https://user-images.githubusercontent.com/46171611/66282830-325d2800-e87e-11e9-99b3-e9857ee1815e.png)
