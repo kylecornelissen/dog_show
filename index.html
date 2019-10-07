@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700&display=swap">
     <link rel="icon" href="./images/dog-face-favicon.png" />
-    <meta charset="utf-8">
+    <script async type="text/javascript" src="./main.js"></script>
     <title>Dog Party</title>
   </head>
   <body>
     <nav>
       <image class="dog-icon" src="./images/dog-icon.svg" alt="dog nav icon" />
       <ul>
-        <li><a href="" target="#_blank" rel="">How To Dog</a></li>
+        <li><a href="" target="_blank" rel="">How To Dog</a></li>
         <li><a href="" target="_blank" rel="">What Is Dogs</a></li>
         <li><a href="" target="_blank" rel="">Facts From Dog</a></li>
       </ul>
     </nav>
     <main>
-      <h2 class="align-center">A Site About <b>Some Dogs</b></h2>
+      <h2 class="align-center">A Site About <output class="output-name">Some Dogs</output></h2>
       <div class="border-contain">
         <image class="dog-profile" src="./images/dog1-sq.jpg" alt="good doggo" />
       </div>
-      <form class="align-center" action="/tbd_name.js">
+      <form class="align-center" action="_top" onkeydown="return hitEnter()">
         <label id="name-label" for="name">Name</label><br>
-        <input class="name-input align-center" type="text" name="firstname" value="" placeholder="Enter Dog Name"><br>
-        <input id="name-btn" type="submit" value="Name This Dog">
+        <input id="name-input" type="text" name="dogname" value="" placeholder="Enter Dog Name"><br>
+        <input id="name-btn" type="button" value="Name This Dog">
       </form>
     </main>
     <section>
