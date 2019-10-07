@@ -26,7 +26,7 @@ nav {
 
 .dog-icon:hover {
   /* filter: invert(1); */
-  filter: invert(1) drop-shadow(0 0 0.75rem white);
+  filter: invert(1) drop-shadow(0 0 0.75rem black);
 }
 
 ul {
@@ -71,6 +71,10 @@ main h2 {
   font-weight: 400;
 }
 
+main h2 output {
+  font-weight: 700;
+}
+
 .align-center {
   text-align: center;
 }
@@ -107,11 +111,12 @@ main h2 {
   font-size: 80%;
 }
 
-.name-input {
+#name-input {
   padding: 15px 30px 15px 30px;
   width: 30.8%;
   font-size: 75%;
   font-weight: 700;
+  text-align: center;
   margin-top: 0.5%;
   margin-bottom: 2%;
   border: none;
