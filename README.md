@@ -1,6 +1,6 @@
 # Dog Party!
 
-Dog Party is a Front End Module 1 Project that focuses on building out UI based on a given comp. It is a 1-page static site to practice writing well structured, semantic HTML with clean, precise CSS, as well as take a first crack at adding some user interaction with JavaScript and the DOM.
+Dog Party is a Front End Module 1 Project at Turing School of Software & Design that focuses on building out UI based on a given comp. It is a 1-page static site to practice writing well structured, semantic HTML with clean, precise CSS, as well as take a first crack at adding some user interaction with JavaScript and the DOM.
 
 ## Learning Goals
   - Accurately build a provided comp
