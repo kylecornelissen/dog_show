@@ -16,3 +16,5 @@ Dog Party is a Front End Module 1 Project that focuses on building out UI based 
 ## Setup
 1. Clone this repository
 2. Run ```open index.html``` in the command line
+
+![site](https://user-images.githubusercontent.com/46171611/66282522-f37aa280-e87c-11e9-8477-50a75f5f06e4.png)
